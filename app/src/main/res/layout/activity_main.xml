@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dgtech.sss.titlebarviewdemo.MainActivity">
+<com.dgtech.sss.titlebarviewdemo.TitleBarView
+    app:isHideRight="false"
+    app:title="你好"
+    app:right="管理"
+    app:titleSize="17sp"
+    app:rightSize="16sp"
+    app:content_bg="#f00"
+app:title_color="#fff"
+    app:right_color="#0f0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
